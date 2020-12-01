@@ -13,7 +13,7 @@ while (true) {
     const notANumber = Number.isNaN(userInput);
 
     if (notANumber) {
-        console.log("Было введено не число, пропускаем итерацию!");
+        console.log("Было введено не число, попробуйте еще раз");
         continue;
     }
 
