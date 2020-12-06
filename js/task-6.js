@@ -38,12 +38,14 @@ do {
 
         if (notANumber) {
             console.log("Было введено не число, попробуйте еще раз");        
-        }
-    }    
+            continue;
+        } 
+    } 
+
+    total += userInput;
 }
 
 while (userInput !== null) {    
-    total += userInput;
+    
     console.log(`Общая сумма чисел равна ${total}`)
 }
-
