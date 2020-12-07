@@ -37,15 +37,16 @@ do {
         const notANumber = Number.isNaN(userInput);
 
         if (notANumber) {
-            console.log("Было введено не число, попробуйте еще раз");        
+            alert("Было введено не число, попробуйте еще раз");
             continue;
-        } 
-    } 
+        }
+       
+    }
 
     total += userInput;
 }
 
-while (userInput !== null) {    
+while (userInput !== null);   
     
-    console.log(`Общая сумма чисел равна ${total}`)
-}
+alert(`Общая сумма чисел равна ${total}`);
+
